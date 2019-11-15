@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' href = "styles.css"> 
+  </head>
+
+  <body>
+      <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="index.html">LATTITUDE</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">HOME</a></li>
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="max_temp.html">Temperature</a></li>
+                  <li><a href="humidity.html">Humidity</a></li>
+                  <li><a href="cloud.html">Cloudiness</a></li>
+                  <li><a href="windspeed.html">Wind Speed</a></li>
+                </ul>
+              </li>
+              <li><a href='comparison.html'>Comparison</a></li>
+              <li><a href='data.html'>Data Reference</a></li>
+              <li><a href="aboutme.html">About ME</a></li>
+            </ul>
+           </div>
+        </nav>
+
+        <h2>Humidity vs Latitude</h2>
+        <div class="container">
+          <img class="container_image" src="humidity.png" alt="hum">
+          <div class="container_text">
+              <p> Humidity vs lattitude. Although humidity deals with heat, another important factor 
+                  that humidity measures is the distance between the city and bodies of water. 
+                  If you look at the world map and see where the equator aligns on the earth, the equator doesn't cover 
+                  alot of land compared to the bodies of water. Based on the visualizations it looks that all the cities
+                  that have high humidity is not affected by how close that city is to the equator. Rather it is how close
+                  the city is to the water. There is no evidence of a strong correlation between the two factors. 
+            </p>
+          </div>
+        
+        </div>
+    
+        <h2>Visualizations</h2>
+        <div class="row">
+            <div class="column">
+                <a href="max_temp.html"><img src="max_temp.png" alt="temp"></a>
+            </div>
+            <div class="column">
+                <a href="humidity.html"><img src="humidity.png" alt="hum"></a>
+            </div>
+            <div class="column">
+                <a href="cloud.html"><img src="cloudiness.png" alt="cloud"></a>
+            </div>
+            <div class="column">
+                <a href="windspeed.html"></a><img src="windspeed.png" alt="woosh"></a>
+              </div>
+          </div>
+
+  </body>
+  </html>

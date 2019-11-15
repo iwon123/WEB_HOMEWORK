@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' href = "styles.css"> 
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">LATITUDE</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">HOME</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="max_temp.html">Max Temperature</a></li>
+              <li><a href="humidity.html">Humidity</a></li>
+              <li><a href="cloud.html">Cloudiness</a></li>
+              <li><a href="windspeed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li><a href='comparison.html'>Comparison</a></li>
+          <li><a href='data.html'>Data Reference</a></li>
+          <li><a href="aboutme.html">About ME</a></li>
+        </ul>
+       </div>
+    </nav>
+    <div class="container-fluid body-container">
+        <div class="boxed body-box">
+          
+
+    </div>
+
+  <div>
+    <font size = '6'>The Landing Page (HOME)</font>
+    <img src="World-map-red-line-Equator.jpg" alt="World-map-red-line-Equator" width="1000" height="300">
+    <font size ='1'>Reference: https://cdn.britannica.com/19/129119-050-6ED737BC/World-map-red-line-Equator.jpg</font>
+    <h3>What are we looking at?</h3>
+    <p>The purpose of this this site is to see the comparison of different factors that are involved
+      with latitude. We will be looking at the the visual comparison of four different weather conditions to the latitude of the earth as it is reaching the equator. <br/> 
+      1)Temperature<br/> 
+      2)Humidity<br/> 
+      3)Cloudiness<br/> 
+      4)Wind Speed<br/> 
+      When looking at each comparison we give insight on what we can observe, such as trends and any correlations.<br/>
+      This is site is built on CSS and data is from the OpenWeather API that helped create these visualizations.  
+    </p>
+    <h2>Visualizations</h2>
+    <div class="row">
+        <div class="column">
+            <a href="max_temp.html"><img src="max_temp.png" alt="Snow" style="width:100%"></a>
+        </div>
+        <div class="column">
+            <a href="humidity.html"><img src="humidity.png" alt="Forest" style="width:100%"></a>
+        </div>
+        <div class="column">
+            <a href="cloud.html"><img src="cloudiness.png" alt="Mountains" style="width:100%"></a>
+        </div>
+        <div class="column">
+            <a href="windspeed.html"></a><img src="windspeed.png" alt="Mountains" style="width:100%"></a>
+          </div>
+      </div>
+
+  </div>
+
+    
+  </body>
+  </html>
